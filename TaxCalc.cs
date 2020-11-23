@@ -6,8 +6,7 @@ namespace CBasics
     {
         public static void Solution()
         {
-            const decimal aMinutePrice = 2.0M;
-            const decimal taxRate = .2M;
+            const decimal oneMinutePrice = 2.0M, taxRate = .2M;
             decimal taxTotalQuarter;
             {
                 Console.Write("Введите количество минут за январь ");
@@ -22,7 +21,7 @@ namespace CBasics
                 checked
                 {
                     var minutesTotalQuarter = minutesJanuary + minutesFebruary + minutesMarch;
-                    var priceTotalQuarter = minutesTotalQuarter * aMinutePrice;
+                    var priceTotalQuarter = minutesTotalQuarter * oneMinutePrice;
                     taxTotalQuarter = priceTotalQuarter * taxRate;
                 }
             }

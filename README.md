@@ -1,1 +1,1 @@
-# CBasics study project
+# C# study project (starter course)

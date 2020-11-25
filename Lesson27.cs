@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 
 namespace CBasics
 {
@@ -17,7 +16,7 @@ namespace CBasics
                 x = Convert.ToDouble(Console.ReadLine());
                 y = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("Введите оператор");
-                op = Convert.ToChar(Console.ReadLine());
+                op = Convert.ToChar(Console.ReadLine()); //Possible null assignment
             }
             checked
             {

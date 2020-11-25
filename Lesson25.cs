@@ -6,7 +6,7 @@
 */
 namespace CBasics
 {
-    public class Refactoring
+    public class Lesson25
     {
         public static void Solution()
         {

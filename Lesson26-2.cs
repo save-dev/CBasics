@@ -21,7 +21,7 @@ namespace CBasics
                 var max2 = Math.Max(a3, a4) % 2 == 0 ? Math.Max(a3, a4) : Math.Min(a3, a4);
                 var max3 = Math.Max(max1, max2) % 2 == 0 ? Math.Max(max1, max2) : Math.Min(max1, max2);
 
-                Console.WriteLine(max3);
+                Console.WriteLine($"Максимальное четное из 4 чисел: {max3}");
             }
             else Console.WriteLine("Not found");
         }
